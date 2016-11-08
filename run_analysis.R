@@ -60,4 +60,4 @@ allData.mean <- dcast(allData.melted, subject + activity ~ variable, mean)
 
 # create file
 
-write.table(allData.mean, "tidy_data.txt", row.names = FALSE, quote = FALSE)
+write.table(allData.mean, "cleared_data.txt", row.names = FALSE, quote = FALSE)
